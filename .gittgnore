@@ -1,0 +1,22 @@
+# Ignore venv directory created by virtualenv or venv
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore local development settings
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
